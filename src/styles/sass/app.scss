@@ -76,10 +76,14 @@ time, mark, audio, video {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow-x: hidden;
 
     .background-image.desktop{
         position: absolute;
         display: block;
+        img: {
+            width: 100vw;
+        }
     }
     .background-image.mobile{
         display: none;
@@ -88,10 +92,12 @@ time, mark, audio, video {
         top: 0;
         left: 0;
         img{
-           max-width: 100%; 
+           width: 100vw;
         }
     }
-    
+    // test1
+    // test2
+    // test3
     .intro-messages{
         display: flex;
         flex-flow: column;
@@ -133,6 +139,7 @@ time, mark, audio, video {
     }
     .bullet-points{
         display: flex;
+        justify-content: center;
         margin-bottom: 100px;
         img{
             transform: translateX(-80px);

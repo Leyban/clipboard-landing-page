@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.download-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+}
+.download-buttons .ios-btn-shadow {
+  margin-right: 10px;
+  background-color: #1d907f;
+  border-radius: 25px;
+}
+.download-buttons .ios-btn-shadow .dl-for-ios {
+  cursor: pointer;
+  transform: translateY(-2px);
+  background-color: #26baa4;
+  height: 50px;
+  width: 200px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-buttons .ios-btn-shadow .dl-for-ios:hover {
+  background-color: #30d5bc;
+}
+.download-buttons .mac-btn-shadow {
+  margin-left: 10px;
+  background-color: #2e46ff;
+  border-radius: 25px;
+}
+.download-buttons .mac-btn-shadow .dl-for-mac {
+  cursor: pointer;
+  transform: translateY(-2px);
+  background-color: #6173ff;
+  height: 50px;
+  width: 200px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-buttons .mac-btn-shadow .dl-for-mac:hover {
+  background-color: #8593ff;
+}
+
+.introduction {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.introduction .background-image.desktop {
+  position: absolute;
+  display: block;
+}
+.introduction .background-image.mobile {
+  display: none;
+}
+.introduction .background-image {
+  top: 0;
+  left: 0;
+}
+.introduction .background-image img {
+  max-width: 100%;
+}
+.introduction .intro-messages {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.introduction .intro-messages img {
+  width: 100px;
+  padding: 50px;
+}
+.introduction .intro-messages h1 {
+  color: #4c545d;
+  padding-bottom: 10px;
+}
+.introduction .intro-messages p {
+  color: #9fabb2;
+  max-width: 500px;
+  text-align: center;
+}
+
+.features .keep-track {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.features .keep-track h2 {
+  padding: 20px;
+  color: #4c545d;
+}
+.features .keep-track p {
+  color: #9fabb2;
+  text-align: center;
+  max-width: 600px;
+}
+.features .bullet-points {
+  display: flex;
+  margin-bottom: 100px;
+}
+.features .bullet-points img {
+  transform: translateX(-80px);
+}
+.features .bullet-points .bullet {
+  width: auto;
+  margin-top: 80px;
+}
+.features .bullet-points .bullet h3 {
+  text-align: left;
+  color: #4c545d;
+  padding-bottom: 10px;
+}
+.features .bullet-points .bullet p {
+  color: #9fabb2;
+  text-align: left;
+  max-width: 400px;
+}
+.features .access {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  margin-bottom: 50px;
+}
+.features .access h1 {
+  padding: 20px;
+  color: #4c545d;
+}
+.features .access p {
+  color: #9fabb2;
+  text-align: center;
+  max-width: 600px;
+}
+.features .all-devices {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.features .supercharge {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.features .supercharge h1 {
+  padding: 20px;
+  color: #4c545d;
+}
+.features .supercharge p {
+  color: #9fabb2;
+  text-align: center;
+  max-width: 600px;
+}
+.features .supercharge .cards {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.features .supercharge .cards .card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.features .supercharge .cards .card .icon-container {
+  height: 50px;
+}
+.features .supercharge .cards .card h3 {
+  padding: 20px;
+  color: #4c545d;
+}
+.features .supercharge .cards .card p {
+  color: #9fabb2;
+  text-align: center;
+  max-width: 340px;
+}
+
+.comapny-logos {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.call-to-action {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.call-to-action h1 {
+  padding: 20px;
+  color: #4c545d;
+}
+.call-to-action p {
+  color: #9fabb2;
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer .product-logo {
+  width: 50px;
+}
+.footer p {
+  color: #4c545d;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.footer p:hover {
+  color: #26baa4;
+}
+.footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .social img {
+  cursor: pointer;
+  padding: 0 10px 0 10px;
+}
+.footer .social img:hover {
+  filter: invert(70%) sepia(21%) saturate(1500%) hue-rotate(120deg) brightness(87%) contrast(76%);
+}
+
+@media only screen and (max-width: 990px) {
+  .features .bullet-points {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .features .bullet-points img {
+    transform: translateX(0);
+    max-width: 500px;
+    padding: 20px;
+  }
+  .features .bullet-points .bullet {
+    width: auto;
+    margin-top: 80px;
+  }
+  .features .bullet-points .bullet h3 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .features .bullet-points .bullet p {
+    text-align: center;
+    max-width: 400px;
+  }
+  .features .all-devices img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .comapny-logos {
+    display: grid;
+    margin: auto;
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .comapny-logos img {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .features .access h1 {
+    text-align: center;
+  }
+  .features .access p {
+    padding: 20px;
+  }
+  .features .supercharge h1 {
+    text-align: center;
+  }
+  .features .supercharge .cards {
+    flex-flow: column;
+  }
+
+  .comapny-logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .comapny-logos img {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .download-buttons {
+    flex-flow: column;
+  }
+  .download-buttons .ios-btn-shadow {
+    margin: 10px;
+  }
+  .download-buttons .mac-btn-shadow {
+    margin: 10px;
+  }
+
+  .introduction .intro-messages h1 {
+    text-align: center;
+    padding: 10px;
+  }
+  .introduction .intro-messages p {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .features .keep-track p {
+    padding: 10px;
+  }
+  .features .bullet-points {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .features .bullet-points img {
+    width: 85%;
+    height: auto;
+    margin: 0;
+  }
+  .features .bullet-points .bullet p {
+    margin: 20px;
+  }
+
+  .comapny-logos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .comapny-logos img {
+    padding: 20px;
+  }
+
+  .call-to-action h1 {
+    text-align: center;
+  }
+  .call-to-action p {
+    margin: 20px;
+  }
+
+  .footer {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .product-logo {
+    padding-bottom: 30px;
+  }
+  .footer p {
+    text-align: center;
+    padding: 20px;
+  }
+  .footer .social {
+    padding-top: 20px;
+  }
+}

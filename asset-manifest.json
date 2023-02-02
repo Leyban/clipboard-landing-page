@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/clipboard-landing-page/static/css/main.ac0f627c.css",
+    "main.css": "/clipboard-landing-page/static/css/main.7e3c3064.css",
     "main.js": "/clipboard-landing-page/static/js/main.130f9dfa.js",
     "static/media/image-computer.png": "/clipboard-landing-page/static/media/image-computer.65db67db202be4e74616.png",
     "static/media/bg-header-desktop.png": "/clipboard-landing-page/static/media/bg-header-desktop.3d39ff8e4eec581d1f91.png",
@@ -14,11 +14,11 @@
     "static/media/icon-twitter.svg": "/clipboard-landing-page/static/media/icon-twitter.09334153919ab7925dce3b54b4b9a815.svg",
     "static/media/icon-facebook.svg": "/clipboard-landing-page/static/media/icon-facebook.7e5a10f05d754f6e65372e20a5452d60.svg",
     "static/media/logo.svg": "/clipboard-landing-page/static/media/logo.99709bee9527fac7b703e0053be7feda.svg",
-    "main.ac0f627c.css.map": "/clipboard-landing-page/static/css/main.ac0f627c.css.map",
+    "main.7e3c3064.css.map": "/clipboard-landing-page/static/css/main.7e3c3064.css.map",
     "main.130f9dfa.js.map": "/clipboard-landing-page/static/js/main.130f9dfa.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac0f627c.css",
+    "static/css/main.7e3c3064.css",
     "static/js/main.130f9dfa.js"
   ]
 }
